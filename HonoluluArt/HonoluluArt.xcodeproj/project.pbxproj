@@ -13,6 +13,7 @@
 		C6589FCC1CFDB36C00D03AC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6589FCB1CFDB36C00D03AC0 /* Assets.xcassets */; };
 		C6589FCF1CFDB36C00D03AC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6589FCD1CFDB36C00D03AC0 /* LaunchScreen.storyboard */; };
 		C6589FDA1CFDB36C00D03AC0 /* HonoluluArtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6589FD91CFDB36C00D03AC0 /* HonoluluArtTests.swift */; };
+		C6589FE61CFDBFDD00D03AC0 /* PublicArt.json in Resources */ = {isa = PBXBuildFile; fileRef = C6589FE51CFDBFDD00D03AC0 /* PublicArt.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		C6589FD51CFDB36C00D03AC0 /* HonoluluArtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HonoluluArtTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6589FD91CFDB36C00D03AC0 /* HonoluluArtTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HonoluluArtTests.swift; sourceTree = "<group>"; };
 		C6589FDB1CFDB36C00D03AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6589FE51CFDBFDD00D03AC0 /* PublicArt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PublicArt.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		C6589FB81CFDB36B00D03AC0 = {
 			isa = PBXGroup;
 			children = (
+				C6589FE41CFDBFB600D03AC0 /* Supporting Files */,
 				C6589FC31CFDB36C00D03AC0 /* HonoluluArt */,
 				C6589FD81CFDB36C00D03AC0 /* HonoluluArtTests */,
 				C6589FC21CFDB36B00D03AC0 /* Products */,
@@ -94,6 +97,14 @@
 				C6589FDB1CFDB36C00D03AC0 /* Info.plist */,
 			);
 			path = HonoluluArtTests;
+			sourceTree = "<group>";
+		};
+		C6589FE41CFDBFB600D03AC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6589FE51CFDBFDD00D03AC0 /* PublicArt.json */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +190,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6589FE61CFDBFDD00D03AC0 /* PublicArt.json in Resources */,
 				C6589FCF1CFDB36C00D03AC0 /* LaunchScreen.storyboard in Resources */,
 				C6589FCC1CFDB36C00D03AC0 /* Assets.xcassets in Resources */,
 				C6589FCA1CFDB36C00D03AC0 /* Main.storyboard in Resources */,
