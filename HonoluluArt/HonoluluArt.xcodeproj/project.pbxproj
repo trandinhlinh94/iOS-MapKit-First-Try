@@ -15,6 +15,7 @@
 		C6589FDA1CFDB36C00D03AC0 /* HonoluluArtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6589FD91CFDB36C00D03AC0 /* HonoluluArtTests.swift */; };
 		C6589FE61CFDBFDD00D03AC0 /* PublicArt.json in Resources */ = {isa = PBXBuildFile; fileRef = C6589FE51CFDBFDD00D03AC0 /* PublicArt.json */; };
 		C6589FE81CFDC11400D03AC0 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6589FE71CFDC11400D03AC0 /* Artwork.swift */; };
+		C6589FEA1CFDC73A00D03AC0 /* VCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6589FE91CFDC73A00D03AC0 /* VCMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		C6589FDB1CFDB36C00D03AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6589FE51CFDBFDD00D03AC0 /* PublicArt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PublicArt.json; sourceTree = "<group>"; };
 		C6589FE71CFDC11400D03AC0 /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		C6589FE91CFDC73A00D03AC0 /* VCMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			children = (
 				C6589FC41CFDB36C00D03AC0 /* AppDelegate.swift */,
 				C6589FC61CFDB36C00D03AC0 /* ViewController.swift */,
+				C6589FE91CFDC73A00D03AC0 /* VCMapView.swift */,
 				C6589FE71CFDC11400D03AC0 /* Artwork.swift */,
 				C6589FC81CFDB36C00D03AC0 /* Main.storyboard */,
 				C6589FCB1CFDB36C00D03AC0 /* Assets.xcassets */,
@@ -214,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6589FEA1CFDC73A00D03AC0 /* VCMapView.swift in Sources */,
 				C6589FC71CFDB36C00D03AC0 /* ViewController.swift in Sources */,
 				C6589FE81CFDC11400D03AC0 /* Artwork.swift in Sources */,
 				C6589FC51CFDB36C00D03AC0 /* AppDelegate.swift in Sources */,

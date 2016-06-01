@@ -33,6 +33,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         centerMapOnLocation(initialLocation)
         
+        //show a artwork on map 
+        let artwork = Artwork(title: "King David Kalakua", locationName: "Kaikiki Gateway Park", discipline: "Scrupture", coordinate: CLLocationCoordinate2D(latitude: 21.283921, longitude: -157.831661))
+        mapView.addAnnotation(artwork)
+        
+        mapView.delegate = self
+        
     }
     /*
     override func didReceiveMemoryWarning() {

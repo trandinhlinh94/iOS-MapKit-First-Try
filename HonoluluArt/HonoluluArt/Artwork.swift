@@ -8,6 +8,7 @@
 
 import Foundation
 import MapKit
+import Contacts
 
 class Artwork: NSObject, MKAnnotation {
     
@@ -28,4 +29,16 @@ class Artwork: NSObject, MKAnnotation {
     var subtitle: String? {
         return locationName
     }
+    
+    // annotation callout info button open this mapItem in Maps app
+    func mapItem() -> MKMapItem {
+        let addressDictionary = [CNPostalAddressStreetKey: subtitle!]
+        let placemark = MKPlacemark(coordinate: coordinate, addressDictionary: addressDictionary)
+        
+        let mapItem = MKMapItem(placemark: placemark)
+        mapItem.name = title
+        
+        return mapItem
+    }
+
 }
