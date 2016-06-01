@@ -30,4 +30,16 @@ extension ViewController: MKMapViewDelegate {
         }
         return nil
     }
+    
+    
+    /*
+    When the user taps a map annotation pin, the callout shows an info button. If the user taps this info button, the mapView(_:annotationView:calloutAccessoryControlTapped:) method is called.
+    In this method, you grab the Artwork object that this tap refers to and then launch the Maps app by creating an associated MKMapItem and calling openInMapsWithLaunchOptions on the map item.
+    */
+    func mapView(mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
+        let location = view.annotation as! Artwork
+        let launchOptions = [MKLaunchOptionsDirectionsModeKey: MKLaunchOptionsDirectionsModeDriving]
+        location.mapItem().openInMapsWithLaunchOptions(launchOptions)
+    }
+    
 }
