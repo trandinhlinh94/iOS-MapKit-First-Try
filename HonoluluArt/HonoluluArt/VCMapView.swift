@@ -29,6 +29,18 @@ extension ViewController: MKMapViewDelegate {
             return view
         }
         return nil
+        
+        
+    /*
+    
+    1  mapView(_:viewForAnnotation:) is the method that gets called for every annotation you add to the map (kind of like tableView(_:cellForRowAtIndexPath:) when working with table views), to return the view for each annotation.
+    
+    2  Also similarly to tableView(_:cellForRowAtIndexPath:), map views are set up to reuse annotation views when some are no longer visible. So the code first checks to see if a reusable annotation view is available before creating a new one.
+       
+    3  Here we use the plain vanilla MKAnnotationView class if an annotation view could not be dequeued. It uses the title and subtitle properties of Artwork class to determine what to show in the callout – the little bubble that pops up when the user taps on the pin.
+
+         
+    */
     }
     
     
